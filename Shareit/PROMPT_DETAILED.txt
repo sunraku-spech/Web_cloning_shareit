@@ -1,0 +1,7 @@
+Tujuan: Buat web app cloning ShareIt untuk browser dengan UX modern + fungsionalitas transfer file P2P. Spesifikasi:
+- Discovery & pairing: signaling server (Socket.io), QR code pairing, session ID.
+- Transfer: WebRTC DataChannel, chunking (64KB), SHA-256 checksum, pause/resume support.
+- Fallback: relay via signaling server (jika P2P gagal) / penggunaan TURN optional.
+- UI: Responsive, dark/light, Tailwind, animasi micro-interactions.
+- Backend: Node.js + Express untuk signaling + static file serving.
+- Deliverables: full source code, README, demo instructions, daftar file.
